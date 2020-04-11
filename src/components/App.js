@@ -1,11 +1,12 @@
 import React from 'react';
-import {selectSong} from '../actions'
+import SongList from './SongList';
+// import {selectSong} from '../actions';
 
 
 const App =()=>{
     return(
-        <div className='ui container'>React Redux App
-        {selectSong}
+        <div className='ui container'>
+            <SongList />
         </div>
     )
 }
